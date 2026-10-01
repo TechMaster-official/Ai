@@ -63,17 +63,17 @@
 
 ```bash
 pkg update -y && pkg install -y python
-git clone https://github.com/YOUR_USERNAME/techmaster-ai.git
-cd techmaster-ai
-python main.py
+git clone https://github.com/TechMaster-official/Ai.git
+cd Ai
+python Agent.py
 ```
 
 ### 🔹 Option 2 — Linux / macOS / WSL
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/techmaster-ai.git
-cd techmaster-ai
-python3 main.py
+git clone https://github.com/TechMaster-official/Ai.git
+cd Ai
+python3 Agent.py
 ```
 
 > Python 3.6+ required. No external packages needed.
