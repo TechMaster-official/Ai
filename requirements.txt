@@ -1,0 +1,19 @@
+# ══════════════════════════════════════════════════════════════
+#  Tech Master AI — Termux AI Agent (3D Edition)
+#  Requirements
+# ══════════════════════════════════════════════════════════════
+#
+#  🎉 No external dependencies!
+#
+#  This project uses only the Python 3 standard library:
+#    - argparse, json, math, os, random, shutil, sys,
+#      time, unicodedata, urllib, threading
+#
+#  Minimum Python version: 3.6
+#
+#  Optional (NOT required, but if you want to switch
+#  urllib for requests, uncomment below):
+#
+#  requests>=2.28.0
+#
+# ══════════════════════════════════════════════════════════════
