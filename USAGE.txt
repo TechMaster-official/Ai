@@ -1,0 +1,167 @@
+════════════════════════════════════════════════════════════════
+  TECH MASTER AI  •  Termux AI Agent (3D Edition)
+  Complete Usage Guide
+════════════════════════════════════════════════════════════════
+
+Developer : Tech Master
+Telegram  : https://t.me/tech_master_a2z
+Version   : 1.0.0
+
+────────────────────────────────────────────────────────────────
+  ১) REQUIREMENTS
+────────────────────────────────────────────────────────────────
+
+  • Python 3.6 or higher
+  • Terminal with ANSI color support
+  • Internet connection (for AI queries)
+
+  Termux-এ install:
+
+      pkg update -y
+      pkg install -y python git
+
+────────────────────────────────────────────────────────────────
+  ২) INSTALLATION
+────────────────────────────────────────────────────────────────
+
+  Option A — Git clone:
+
+      git clone https://github.com/YOUR_USERNAME/techmaster-ai.git
+      cd techmaster-ai
+
+  Option B — Manual:
+
+      mkdir techmaster-ai && cd techmaster-ai
+      nano main.py       # কোড paste করো, Ctrl+X → Y → Enter
+      chmod +x main.py
+
+────────────────────────────────────────────────────────────────
+  ৩) RUNNING
+────────────────────────────────────────────────────────────────
+
+  Interactive chat mode:
+
+      python main.py
+
+  One-shot question:
+
+      python main.py -q "your question here"
+
+  Play 3D animation:
+
+      python main.py --anim donut
+      python main.py --anim cube
+      python main.py --anim matrix
+      python main.py --anim plasma
+      python main.py --anim all
+
+  Skip splash screen:
+
+      python main.py --no-splash
+
+  Disable all animations:
+
+      python main.py --no-anim
+
+  Custom API endpoint:
+
+      python main.py --api "https://your-api.example/api"
+
+  Show version:
+
+      python main.py --version
+
+  Show help:
+
+      python main.py --help
+
+────────────────────────────────────────────────────────────────
+  ৪) INTERACTIVE COMMANDS
+────────────────────────────────────────────────────────────────
+
+  /help              Show help message
+  /anim donut        🍩 Play donut 3D animation
+  /anim cube         🧊 Play rotating cube
+  /anim matrix       🟢 Play matrix rain
+  /anim plasma       🌈 Play plasma field
+  /anim all          Play all animations
+  /clear             Clear the screen
+  /banner            Print banner again
+  /about             About this tool
+  /api               Show API endpoint
+  /history           Show session history
+  /save chat.txt     Save history to file
+  /quit  /exit  /q   Exit the app
+
+  Ctrl+C             Force quit anytime
+
+────────────────────────────────────────────────────────────────
+  ৫) API DETAILS
+────────────────────────────────────────────────────────────────
+
+  Endpoint:
+
+      https://deep-ai-api-by-tech-master.vercel.app/api/deep-ai
+
+  Method : GET
+  Param  : ?query=<your+question+here>
+
+  Example:
+
+      https://deep-ai-api-by-tech-master.vercel.app/api/deep-ai?query=hello
+
+  Response:
+
+      {
+        "status": true,
+        "creator": "Tech Master",
+        "results": "AI reply text..."
+      }
+
+────────────────────────────────────────────────────────────────
+  ৬) TROUBLESHOOTING
+────────────────────────────────────────────────────────────────
+
+  Problem: python: command not found
+  Fix    : pkg install python
+
+  Problem: Permission denied
+  Fix    : chmod +x main.py
+
+  Problem: Box characters look broken
+  Fix    : Install a Nerd Font in Termux via termux-styling,
+           then set it in your terminal emulator
+
+  Problem: No colors
+  Fix    : Termux → settings → Colors → Default
+
+  Problem: API timeout
+  Fix    : Check internet: pkg install curl
+           curl "https://deep-ai-api-by-tech-master.vercel.app/api/deep-ai?query=hi"
+
+  Problem: Animation is slow
+  Fix    : Use --no-anim flag, or reduce duration in code
+
+────────────────────────────────────────────────────────────────
+  ৭) GITHUB UPLOAD
+────────────────────────────────────────────────────────────────
+
+  git init
+  git branch -M main
+  git add .
+  git commit -m "🚀 Tech Master AI v1.0.0"
+  git remote add origin https://github.com/YOUR_USERNAME/techmaster-ai.git
+  git push -u origin main
+
+  (GitHub password-এর বদলে Personal Access Token ব্যবহার করো)
+
+────────────────────────────────────────────────────────────────
+  ৮) LICENSE
+────────────────────────────────────────────────────────────────
+
+  MIT License — Copyright (c) 2025 Tech Master
+
+════════════════════════════════════════════════════════════════
+  Stay awesome!  ⚡
+  t.me/tech_master_a2z
+════════════════════════════════════════════════════════════════
